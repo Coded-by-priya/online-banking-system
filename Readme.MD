@@ -130,6 +130,7 @@ npm start
 
 - Credentials for user and admin :
     User : user@example.com || User123
+
     Admin : admin@example.com || Admin123
 
 ## **Author**
