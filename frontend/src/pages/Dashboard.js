@@ -294,11 +294,11 @@ export default function Dashboard() {
             whiteSpace: 'nowrap',
             overflow: 'hidden',
             display: 'inline-block',
-            width: '0ch',
-            animation: 'typing 2s steps(20, end) forwards',
+            width: 0,
+            animation: `typing 4s steps(${(`Welcome, ${user?.name}!`).length}, end) forwards`,
             '@keyframes typing': {
-              from: { width: '0ch' },
-              to: { width: '12ch' },
+              from: { width: 0 },
+              to: { width: '100%' },
             },
             '&:hover': {
               cursor: 'pointer',
