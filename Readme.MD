@@ -4,43 +4,35 @@ A secure digital banking system simulation that allows users to register, authen
 
 ---
 
-## **Table of Contents**
 
-1. [Features](#features)  
-2. [Tech Stack](#tech-stack)  
-3. [Project Structure](#project-structure)  
-4. [Installation](#installation)  
-5. [Usage](#usage)
+## ✨ **Features**
 
----
-
-## **Features**
-
-### **User Features**
-- Register and login securely  
-- View account balance and transaction history  
+### User Features  
+- User registration and secure login  
+- View account balance & transaction history  
 - Transfer funds between accounts  
 - Deposit and withdraw funds  
-- Download account statements as PDF  
-- Responsive, user-friendly interface  
+- Download account statements as a PDF  
 
-### **Admin Features**
-- View all users and accounts  
-- Monitor transactions and logs  
-- Manage user accounts  
+### Admin Features  
+- View all user accounts  
+- Monitor transactions  
+- Manage user account status
+---
+
+## 🛠 **Tech Stack**
+
+- **Frontend**: React (JavaScript), HTML, CSS  
+- **Backend**: Node.js, Express.js  
+- **Database**: MySQL  
+- **Utilities**: Axios (for API calls), PDF generation for statements  
+- **Auth / Security**: JWT , OTP / email  
+- **Tools**:Postman, VS Code, Git & GitHub
 
 ---
 
-## **Tech Stack**
 
-- **Frontend:** HTML, CSS, JavaScript, React (Fundamental)  
-- **Backend:** Node.js, Express.js  
-- **Database:** MySQL  
-- **Others:** PDF generation for statements, Axios for API calls  
-
----
-
-## **Project Structure**
+## 📁 **Project Structure**
 ```
 online-banking-system/
 │
@@ -100,7 +92,7 @@ online-banking-system/
 
 ---
 
-## **Installation**
+## ⚙️ **Installation**
 
 1. Clone the repository:  
 ```bash
@@ -120,20 +112,51 @@ cd frontend
 npm install
 npm start
 ```
+---
 
-## **Usage**
-- Register a new user or login with existing credentials.
+## 👩‍💻 **Usage**
 
-- Navigate the dashboard to view balance, make transfers, or download PDFs.
+- Once backend and frontend are running:
 
-- Admins can login via admin panel to manage users and monitor transactions.
+    - Open http://localhost:3000 (or your frontend port)
 
-- Credentials for user and admin :
-    User : user@example.com || User123
+    - Register as a new user → Login → Explore dashboard
 
-    Admin : admin@example.com || Admin123
+    - As a user: create account, transfer money, download statements
 
-## **Author**
-Made by Priyanshi Bilodiya
+    - For admin panel: login as admin to view/manage users & transactions
 
-📫 bilodiyapriyanshhi26@gmail.com
+- Testing Credentials for user and admin :
+    - User : user@example.com || User123
+
+    - Admin : admin@example.com || Admin123
+
+---
+
+## 📸 **Screenshots / Demo**
+
+
+
+---
+
+## 🎯 **Future Enhancements**
+
+- Add role-based access (e.g., more admin functionality)
+
+- Add two-factor authentication (2FA)
+
+- Support multiple currencies
+
+- Real-time notifications on transaction events
+
+- Deploy backend & frontend to cloud (Heroku / Render / Vercel)
+
+- Unit + Integration tests
+
+---
+
+✉️ Contact
+```
+Author: Priyanshi Bilodiya
+Email: your-email@example.com
+```
