@@ -93,7 +93,7 @@ online-banking-system/
 ---
 
 ## 📡 **API Endpoints**
-
+```
 - POST /api/auth/register		
     Register a new user with credentials.
 
@@ -126,7 +126,7 @@ online-banking-system/
 
 - GET /api/admin/transactions		
     (If admin) View all transactions across users.
-
+```
 ---
 
 ## ⚙️ **Installation**
@@ -172,10 +172,13 @@ npm start
 
 ## 📸 **Screenshots / Demo**
 
+### **Login/Register page with otp authentication.**
 ![Login/Register page](https://github.com/Coded-by-priya/online-banking-system/blob/main/screenshot/Login-Register.png?raw=true)
 
+### **User Dashboard**
 ![User Dashboard](https://github.com/Coded-by-priya/online-banking-system/blob/main/screenshot/User-dashboard.png?raw=true)
 
+### **Admin Panel**
 ![Admin Panel](https://github.com/Coded-by-priya/online-banking-system/blob/main/screenshot/Admin-panel.png?raw=true)
 
 ---
