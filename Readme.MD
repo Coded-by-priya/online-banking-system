@@ -218,5 +218,5 @@ npm start
 ✉️ Contact
 ```
 Author: Priyanshi Bilodiya
-Email: your-email@example.com
+Email: bilodiyapriyanshi26@gmail.com
 ```
