@@ -27,7 +27,7 @@ A secure digital banking system simulation that allows users to register, authen
 - **Database**: MySQL  
 - **Utilities**: Axios (for API calls), PDF generation for statements  
 - **Auth / Security**: JWT , OTP / email  
-- **Tools**:Postman, VS Code, Git & GitHub
+- **Tools**: Postman, VS Code, Git & GitHub
 
 ---
 
