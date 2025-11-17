@@ -92,6 +92,43 @@ online-banking-system/
 
 ---
 
+## 📡 **API Endpoints**
+
+- POST /api/auth/register		
+    Register a new user with credentials.
+
+- POST /api/auth/login		
+    Log in user / generate session or JWT.
+
+- GET /api/users/:userId		
+    Get user profile details.
+
+- GET /api/accounts		
+    List all bank accounts for the authenticated user.
+
+- GET /api/accounts/:accountId		
+    Get a specific account’s details (balance, account type, etc.).
+
+- POST /api/accounts/create		
+    Create a new bank account for the user.
+
+- GET /api/transactions		
+    Fetch all transactions related to the user.
+
+- POST /api/transactions/transfer		
+    Transfer money from one account to another.
+
+- GET /api/statements/:accountId		
+    Download or generate statement (PDF) for a particular account.
+
+- GET /api/admin/users		
+    (If admin route) Get list of all users.
+
+- GET /api/admin/transactions		
+    (If admin) View all transactions across users.
+
+---
+
 ## ⚙️ **Installation**
 
 1. Clone the repository:  
@@ -114,7 +151,7 @@ npm start
 ```
 ---
 
-## 👩‍💻 **Usage**
+## 📘 **App Usage Instructions**
 
 - Once backend and frontend are running:
 
@@ -135,7 +172,27 @@ npm start
 
 ## 📸 **Screenshots / Demo**
 
+![Login/Register page](https://github.com/Coded-by-priya/online-banking-system/blob/main/screenshot/Login-Register.png?raw=true)
 
+![User Dashboard](https://github.com/Coded-by-priya/online-banking-system/blob/main/screenshot/User-dashboard.png?raw=true)
+
+![Admin Panel](https://github.com/Coded-by-priya/online-banking-system/blob/main/screenshot/Admin-panel.png?raw=true)
+
+---
+
+## 🎓 What I Learned
+
+- Built REST APIs with Express and modular routes/controllers
+
+- Integrated Node.js backend with MySQL for relational data
+
+- Handled transactions and business logic (balance checks, transfers)
+
+- Generated downloadable bank statements in PDF format
+
+- Implemented basic authentication and error handling
+
+- Structured code with clear separation of concerns
 
 ---
 
